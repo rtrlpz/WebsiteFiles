@@ -1,0 +1,27 @@
+/* SETTING UP THE FLEX CONTAINER FOR MOBILE RESPONSIVENESS */
+
+.flex-container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+/* CREATING FLEX ITEMS */
+
+/* MEDIA QUERIES FOR RESPONSIVE BREAKPOINTS */ 
+
+@media (max-width: 786px){
+    .flex-container{
+        flex-direction: column;
+    }
+
+    /* MORE BREAKPOINTS */ 
+}
+
+h1 {
+color: red;
+}
+
+.body {
+background-color: red;
+}
